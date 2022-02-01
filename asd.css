@@ -1,0 +1,151 @@
+
+body{
+	background-image: url(2.png);
+	font-family: arial, sans-serif;
+}
+.menu {
+	z-index: 999;
+	position: fixed;
+	right: 0;
+	left: 0;
+	height: 50px;
+	background-color: black;
+	color: salmon;
+	padding-top: 10px;
+	box-sizing: border-box;
+}
+
+.menu .left {
+	position: fixed;
+	left: 0;
+}
+
+.menu .left a {
+	margin-left: 20px;
+	color: white;
+	text-decoration: none;
+	font-size: 35px;
+}
+
+.menu .left a:hover {
+	color:lightgreen;
+}
+
+.menu .right {
+	position: fixed;
+	right: 0;
+}
+.menu .right a {
+	margin-right: 20px;
+	color: white;
+	text-decoration: none;
+	font-size: 15px;
+	line-height: 30px;
+}
+
+.container {
+	position: relative;
+	width: 950px;
+	background-color: #eaeaea;
+	margin: 0px auto;
+	padding-top: 60px;
+
+}
+.container h1{
+	font-family: "Time New Roman", serif;
+	font-size: 40px;
+	font-weight: bold;
+	margin-left: 15px;
+}
+
+.container ul li {
+	display: inline-block;
+	margin-left: 18px;
+	margin-top: 20px;
+}
+
+.container ul li a {
+	text-decoration: none;
+	color: black;
+	font-size: 19px;
+	padding: 3px;
+}
+
+.container ul li a:hover {
+	background-color: navy;
+	color: white;
+}
+
+.container .jumbo {
+	margin-top: 15px;
+	background-image: url(2.jpg);
+	height: 325px;
+	background-size: cover;
+	background-position: 0px;
+}
+
+.container .title h1 {
+	font-family: "Time New Roman", serif;
+	font-size: 25px;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 5px;
+}
+
+.container .title h5 {
+	font-family: arial;
+	font-size: 12px;
+	font-style: italic;
+	text-align: center;
+	margin-top: 5px;
+}
+
+.container .main {
+	width: 600px;
+	text-align: justify;
+	float: left;
+}
+
+.container .main p {
+	margin: 15px;
+}
+
+.container .penulis {
+	margin-top: 15px;
+	width: 300px;
+	float: right;
+}
+
+.container .penulis img {
+	width: 100px;
+	height: 100px;
+	float: left;
+	margin: 5px; 
+}
+
+.container .penulis p {
+	text-align: justify;
+	padding-right: 10px;
+	font-size: 12px;
+}
+
+.footer {
+	background-color: black;
+	margin: auto;
+	color: white;
+	width: 950px;
+	padding: 10px;
+	text-align: center;
+	box-sizing: border-box;
+}
+
+.container .ribbon a {
+	z-index: 9999;
+	position: absolute;
+	display: inline-block;
+	width: 128px;
+	height: 128px;
+	right: -17px;
+	top: 36px;
+	background-image: url(3.png);
+}
